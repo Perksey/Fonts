@@ -29,7 +29,7 @@ const string title = "Vector Text Demo using Silk.NET, SilkyNvg, and SixLabors.F
 // Create a window for OpenGL 4.5.
 IWindow window = Window.Create(WindowOptions.Default with
 {
-    API = new GraphicsAPI(ContextAPI.OpenGL, ContextProfile.Core, ContextFlags.Default, new APIVersion(4, 5)),
+    API = new GraphicsAPI(ContextAPI.OpenGL, ContextProfile.Core, ContextFlags.ForwardCompatible, new APIVersion(4, 1)),
     Title = title,
     PreferredBitDepth = Vector4D<int>.One * 8,
     PreferredDepthBufferBits = 24,

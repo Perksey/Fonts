@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <PackageReference Include="Silk.NET.OpenGL.Extensions.ImGui" Version="2.20.0" />
-      <PackageReference Include="SilkyNvg.Rendering.OpenGL" Version="1.0.5" />
+      <PackageReference Include="SilkyNvg.Rendering.OpenGL" Version="1.0.7" />
     </ItemGroup>
 
     <ItemGroup>
